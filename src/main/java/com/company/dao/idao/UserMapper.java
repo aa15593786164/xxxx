@@ -29,4 +29,21 @@ public interface UserMapper {
      */
     String selectQuestionByUsername(String username);
 
+    /**
+     * 忘记密码，根据提示问题，验证答案
+     * @param username
+     * @param question
+     * @param anser
+     * @return
+     */
+    int checkAnser(@Param("username") String username, @Param("question") String question,
+                   @Param("anser") String anser);
+
+    /**
+     * 验证预设问题答案后，对密码进行修改
+     * @param username
+     * @param passwordNew
+     * @return
+     */
+    int updatePasswordByUsername(@Param("username") String username,@Param("passwordNew") String passwordNew);
 }

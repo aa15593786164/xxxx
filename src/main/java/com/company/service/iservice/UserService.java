@@ -30,5 +30,21 @@ public interface UserService {
      */
     public ServerRes<String> getQuestionByUsername(String username);
 
+    /**
+     * 验证用户预留答案是否正确
+     * @param username
+     * @param question
+     * @param anser
+     * @return
+     */
     public ServerRes<String> checkAnser(String username,String question,String anser);
+
+    /**
+     * 正确回答预设问题之后，根据令牌对密码进行重置
+     * @param username
+     * @param passwordNew
+     * @param forgetToken
+     * @return
+     */
+//    public ServerRes<String> forgetResetPassword(String username,String passwordNew,String forgetToken);
 }

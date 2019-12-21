@@ -65,4 +65,17 @@ public class UserServiceImplTest {
         System.err.println(uRes2);
         System.err.println("&&&&&&&&&&&&&&&&&&&&&&&"+uRes3);
     }
+
+    @Test
+    public void checkAnser() {
+        ServerRes uRes1 = userService.checkAnser("qian","Q","A");
+        ServerRes uRes2 = userService.checkAnser("qian","Q","c");
+        System.err.println(uRes1);
+        System.err.println(uRes2);
+    }
+
+//    @Test
+//    public void forgetResetPassword() {
+//        ServerRes uRes1 = userService.forgetResetPassword()
+//    }
 }

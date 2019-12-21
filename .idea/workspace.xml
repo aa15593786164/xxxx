@@ -7,13 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cc43e0e-e33e-4d1d-a796-9ed00916c25c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/avtion/UserAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/commons/TokenCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/util/MD5Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/util/PropertyUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/SpringDispatcherServlet-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/service/impl/UserServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/avtion/UserAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/avtion/UserAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/commons/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/commons/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/commons/TokenCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/commons/TokenCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/dao/idao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/dao/idao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/service/iservice/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/service/iservice/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/service/impl/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/service/impl/UserServiceImplTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,15 +38,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="45" />
+          <entry key="JAVA" value="53" />
           <entry key="Properties" value="4" />
-          <entry key="XML" value="17" />
+          <entry key="XML" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2673" />
-          <entry key="XML" value="266" />
+          <entry key="JAVA" value="4271" />
+          <entry key="SQL" value="4" />
+          <entry key="XML" value="430" />
         </counts>
       </usages-collector>
     </session>
@@ -55,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/avtion/UserAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+            <state relative-caret-position="77">
+              <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1643#1644#0" expanded="true" />
@@ -69,8 +71,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/dao/idao/UserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="247">
+              <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="171" column="2" selection-start-line="171" selection-start-column="2" selection-end-line="171" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/service/iservice/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+            <state relative-caret-position="-11">
+              <caret line="85" column="45" lean-forward="true" selection-start-line="85" selection-start-column="45" selection-end-line="85" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,14 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/service/iservice/UserService.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/company/service/impl/UserServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="32" column="84" selection-start-line="32" selection-start-column="84" selection-end-line="32" selection-end-column="84" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="229">
+              <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -125,13 +145,14 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/util/PropertyUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/dao/pojo/User.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/dao/idao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/commons/TokenCache.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/avtion/UserAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/commons/Result.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/company/service/impl/UserServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/avtion/UserAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/service/iservice/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/dao/idao/UserMapper.java" />
       </list>
     </option>
   </component>
@@ -182,9 +203,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="586" />
-    <option name="y" value="7" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="851" />
     <option name="height" value="723" />
   </component>
@@ -368,7 +389,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Unnamed">
+  <component name="RunManager" selected="JUnit.UserServiceImplTest.checkAnser">
     <configuration name="UserServiceImplTest.MD5EncodeUtf8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="xxxx" />
       <extension name="coverage">
@@ -380,6 +401,22 @@
       <option name="PACKAGE_NAME" value="com.company.service.impl" />
       <option name="MAIN_CLASS_NAME" value="com.company.service.impl.UserServiceImplTest" />
       <option name="METHOD_NAME" value="MD5EncodeUtf8" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.checkAnser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xxxx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.company.service.impl.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="checkAnser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -412,22 +449,6 @@
       <option name="PACKAGE_NAME" value="com.company.service.impl" />
       <option name="MAIN_CLASS_NAME" value="com.company.service.impl.UserServiceImplTest" />
       <option name="METHOD_NAME" value="getQuestionByUsername" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceImplTest.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xxxx" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.company.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.company.service.impl.UserServiceImplTest" />
-      <option name="METHOD_NAME" value="login" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -589,19 +610,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Unnamed" />
-      <item itemvalue="JUnit.UserServiceImplTest.login" />
       <item itemvalue="JUnit.UserServiceImplTest.MD5EncodeUtf8" />
       <item itemvalue="JUnit.UserServiceImplTest.checkValid" />
       <item itemvalue="JUnit.UserServiceImplTest.registry" />
       <item itemvalue="JUnit.UserServiceImplTest.getQuestionByUsername" />
+      <item itemvalue="JUnit.UserServiceImplTest.checkAnser" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceImplTest.checkAnser" />
         <item itemvalue="JUnit.UserServiceImplTest.getQuestionByUsername" />
         <item itemvalue="JUnit.UserServiceImplTest.checkValid" />
         <item itemvalue="JUnit.UserServiceImplTest.registry" />
         <item itemvalue="JUnit.UserServiceImplTest.MD5EncodeUtf8" />
-        <item itemvalue="JUnit.UserServiceImplTest.login" />
       </list>
     </recent_temporary>
   </component>
@@ -618,29 +639,11 @@
       <workItem from="1576885372973" duration="802000" />
       <workItem from="1576886557736" duration="960000" />
       <workItem from="1576887850301" duration="9348000" />
-      <workItem from="1576942734864" duration="9236000" />
+      <workItem from="1576942734864" duration="17055000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserServiceImplTest_getQuestionByUsername - 2019.12.22 at 01h 07m 23s.xml">
-      <configuration name="UserServiceImplTest.getQuestionByUsername" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceImplTest_getQuestionByUsername - 2019.12.22 at 01h 16m 56s.xml">
-      <configuration name="UserServiceImplTest.getQuestionByUsername" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceImplTest_getQuestionByUsername - 2019.12.22 at 01h 18m 54s.xml">
-      <configuration name="UserServiceImplTest.getQuestionByUsername" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceImplTest_getQuestionByUsername - 2019.12.22 at 01h 22m 13s.xml">
-      <configuration name="UserServiceImplTest.getQuestionByUsername" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceImplTest_checkValid - 2019.12.22 at 01h 28m 13s.xml">
-      <configuration name="UserServiceImplTest.checkValid" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceImplTest_getQuestionByUsername - 2019.12.22 at 01h 28m 25s.xml">
-      <configuration name="UserServiceImplTest.getQuestionByUsername" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserServiceImplTest_getQuestionByUsername - 2019.12.22 at 01h 34m 54s.xml">
       <configuration name="UserServiceImplTest.getQuestionByUsername" configurationId="JUnit" />
     </history-entry>
@@ -653,22 +656,40 @@
     <history-entry file="UserServiceImplTest_getQuestionByUsername - 2019.12.22 at 01h 46m 07s.xml">
       <configuration name="UserServiceImplTest.getQuestionByUsername" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserServiceImplTest_checkAnser - 2019.12.22 at 03h 11m 36s.xml">
+      <configuration name="UserServiceImplTest.checkAnser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_checkAnser - 2019.12.22 at 03h 12m 16s.xml">
+      <configuration name="UserServiceImplTest.checkAnser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_checkAnser - 2019.12.22 at 04h 21m 09s.xml">
+      <configuration name="UserServiceImplTest.checkAnser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_checkAnser - 2019.12.22 at 04h 22m 11s.xml">
+      <configuration name="UserServiceImplTest.checkAnser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_checkAnser - 2019.12.22 at 04h 33m 11s.xml">
+      <configuration name="UserServiceImplTest.checkAnser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_checkAnser - 2019.12.22 at 04h 34m 43s.xml">
+      <configuration name="UserServiceImplTest.checkAnser" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20346000" />
+    <option name="totallyTimeSpent" value="28165000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="537" y="3" width="851" height="723" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1283697" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.061068702" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.15139443" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49923664" weight="0.48643762" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47197106" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -676,7 +697,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50076336" side_tool="true" weight="0.48101267" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.56057864" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
@@ -820,41 +841,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/commons/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/dao/idao/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/service/impl/UserServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="64" column="34" lean-forward="true" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../shop/src/main/java/com/company/commons/ServerResponse.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/avtion/UserAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+        <state relative-caret-position="77">
+          <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1643#1644#0" expanded="true" />
@@ -863,26 +856,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/service/impl/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/commons/TokenCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+        <state relative-caret-position="216">
+          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/commons/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/service/iservice/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/commons/TokenCache.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/service/iservice/UserService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/dao/idao/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="32" column="84" selection-start-line="32" selection-start-column="84" selection-end-line="32" selection-end-column="84" />
+        <state relative-caret-position="247">
+          <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/service/impl/UserServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="85" column="45" lean-forward="true" selection-start-line="85" selection-start-column="45" selection-end-line="85" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="171" column="2" selection-start-line="171" selection-start-column="2" selection-end-line="171" selection-end-column="2" />
         </state>
       </provider>
     </entry>

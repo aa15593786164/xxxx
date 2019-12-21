@@ -61,4 +61,10 @@ public class UserAction {
     public ServerRes<String> forgetPasswordGetQuestion(String username){
         return userService.getQuestionByUsername(username);
     }
+    //1.6 根据用户预留问题验证答案是否正确
+    @RequestMapping(value = "forgrt_check_anser.do",method = RequestMethod.POST)
+    @ResponseBody
+    public ServerRes<String> forgetPasswordCheckName(String username,String question,String anser){
+        return userService.checkAnser(username,question,anser);
+    }
 }

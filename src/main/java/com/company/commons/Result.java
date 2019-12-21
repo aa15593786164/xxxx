@@ -20,6 +20,13 @@ public enum Result {
     GET_USER_INFO_ERROR(206,"用户尚未登录，获取用户信息失败"),
     GET_QUESTION_SUCCESS(207,"获取设置找回密码问题成功"),
     GET_QUESTION_ERROR(208,"该用户没有设置找回密码的问题"),
+    GET_TOKEN_SUCCESS(209,"获取token成功"),
+    GET_TOKEN_ERROR(210,"预设问题回答错误，您无权修改密码"),
+    TOKEN_GET_ERROR(211,"参数错误，需要传递token令牌"),
+    TOKEN_TIMEOUT_ERROR(212,"TOKEN无效或者过期"),
+    UPDATE_PASSWORD_SUCCESS(213,"密码修改成功"),
+    UPDATE_PASSWORD_ERROR(214,"密码修改失败"),
+    TOKEN_ISNOT_EXIST(215,"Token无效，请重新获取"),
     ;
 
     private final int Status;
