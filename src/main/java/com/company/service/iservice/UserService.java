@@ -46,5 +46,5 @@ public interface UserService {
      * @param forgetToken
      * @return
      */
-//    public ServerRes<String> forgetResetPassword(String username,String passwordNew,String forgetToken);
+    public ServerRes<String> forgetResetPassword(String username,String passwordNew,String forgetToken);
 }

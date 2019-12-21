@@ -45,5 +45,5 @@ public interface UserMapper {
      * @param passwordNew
      * @return
      */
-    int updatePasswordByUsername(@Param("username") String username,@Param("passwordNew") String passwordNew);
+   int updatePasswordByUsername(@Param("username") String username,@Param("passwordNew") String passwordNew);
 }

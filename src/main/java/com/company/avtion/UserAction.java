@@ -67,4 +67,10 @@ public class UserAction {
     public ServerRes<String> forgetPasswordCheckName(String username,String question,String anser){
         return userService.checkAnser(username,question,anser);
     }
+    //1.7 用户预留答案验证后重置密码
+    @RequestMapping(value = "forget_reset_password.do",method = RequestMethod.POST)
+    @ResponseBody
+    public ServerRes<String> forgetResetPassword(String username,String passwordNew,String forgetToken){
+        return userService.forgetResetPassword(username,passwordNew,forgetToken);
+    }
 }

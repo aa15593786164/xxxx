@@ -74,8 +74,9 @@ public class UserServiceImplTest {
         System.err.println(uRes2);
     }
 
-//    @Test
-//    public void forgetResetPassword() {
-//        ServerRes uRes1 = userService.forgetResetPassword()
-//    }
+    @Test
+    public void forgetResetPassword() {
+        ServerRes uRes1 = userService.forgetResetPassword("qian","112244","dc7804de-524b-414a-9aee-f86308723914");
+        System.err.println(uRes1);
+    }
 }

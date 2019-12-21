@@ -101,33 +101,33 @@ public class UserServiceImpl implements UserService {
         return ServerRes.error(Result.GET_TOKEN_ERROR);
     }
 
-//    @Override
-//    public ServerRes<String> forgetResetPassword(String username, String passwordNew, String forgetToken) {
-//        //1-检验令牌是否存在
-//        if(StringUtils.isBlank(forgetToken)){
-//            return ServerRes.error(Result.TOKEN_GET_ERROR);
-//        }
-//        //2- 检验用户名是否为空，如果username不存在，直接返回错误信息，否则token_就可以获得gorgetToken，存在安全隐患
-//        ServerRes uRes = this.checkValid(username,Const.ValidType.USERNAME);
-//        if(uRes.getStatus() == Result.CHECK_SUCCESS.getStatus()){
-//            return ServerRes.success(Result.USER_EXIST);
-//        }
-//        //3- 从guava缓存中获取Token令牌进行非空校检
-//        String token = TokenCache.getKey(TokenCache.TOKEN_PREFIX+username);
-//        if(StringUtils.isBlank(token)){
-//            ServerRes.error(Result.TOKEN_TIMEOUT_ERROR);
-//        }
-//        //4- 对比前端传来的token与缓存中的token值是否一致，应用StringUtils进行equals比较，增强代码健壮性和安全性
-//        if(StringUtils.equals(token,forgetToken)){
-//            String md5Password = MD5Util.MD5EncodeUtf8(passwordNew);
-//            int rowCount = userMapper.updatePasswordByUsername(username,md5Password);
-//            if(rowCount > 0 ){
-//                return ServerRes.success(Result.UPDATE_PASSWORD_SUCCESS);
-//            }
-//        }else {
-//            ServerRes.error(Result.TOKEN_ISNOT_EXIST);
-//        }
-//        return ServerRes.error(Result.UPDATE_PASSWORD_ERROR);
-//    }
+    @Override
+    public ServerRes<String> forgetResetPassword(String username, String passwordNew, String forgetToken) {
+        //1-检验令牌是否存在
+        if(StringUtils.isBlank(forgetToken)){
+            return ServerRes.error(Result.TOKEN_GET_ERROR);
+        }
+        //2- 检验用户名是否为空，如果username不存在，直接返回错误信息，否则token_就可以获得gorgetToken，存在安全隐患
+        ServerRes uRes = this.checkValid(username,Const.ValidType.USERNAME);
+        if(uRes.getStatus() == Result.CHECK_SUCCESS.getStatus()){
+            return ServerRes.success(Result.USER_EXIST);
+        }
+        //3- 从guava缓存中获取Token令牌进行非空校检
+        String token = TokenCache.getKey(TokenCache.TOKEN_PREFIX + username);
+        if(StringUtils.isBlank(token)){
+            ServerRes.error(Result.TOKEN_TIMEOUT_ERROR);
+        }
+        //4- 对比前端传来的token与缓存中的token值是否一致，应用StringUtils进行equals比较，增强代码健壮性和安全性
+        if(StringUtils.equals(token,forgetToken)){
+            String md5Password = MD5Util.MD5EncodeUtf8(passwordNew);
+            int rowCount = userMapper.updatePasswordByUsername(username,md5Password);
+            if(rowCount > 0 ){
+                return ServerRes.success(Result.UPDATE_PASSWORD_SUCCESS);
+            }
+        }else {
+            ServerRes.error(Result.TOKEN_ISNOT_EXIST);
+        }
+        return ServerRes.error(Result.UPDATE_PASSWORD_ERROR);
+    }
 
 }
