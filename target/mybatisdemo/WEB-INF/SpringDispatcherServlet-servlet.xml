@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+    <!-- 自动扫描注解的bean -->
+    <context:component-scan base-package="com.company"/>
+    <!--2 配置能够访问SpringMVC框架下的动态资源  .do-->
+    <mvc:annotation-driven>
+        <mvc:message-converters register-defaults="true">
+            <bean class="com.company.commons.UTF8StringHttpMessageConverter"/>
+        </mvc:message-converters>
+    </mvc:annotation-driven>
+    <!--3 配置能够访问SpringMVC框架下的静态资源  html，js，css，图片-->
+    <mvc:default-servlet-handler/>
+    <!--4 配置适合于Spring4的返回json的视图解析器-->
+    <bean class="org.springframework.web.accept.ContentNegotiationManagerFactoryBean">
+        <property name="favorPathExtension" value="true"/>
+        <property name="favorParameter" value="true"/>
+        <property name="ignoreAcceptHeader" value="true"></property>
+        <property name="defaultContentType" value="text/html"/>
+        <property name="mediaTypes">
+            <map>
+                <!-- 告诉视图解析器，返回的类型为json等格式 -->
+                <entry key="json" value="application/json"/>
+                <entry key="xml" value="application/xml"/>
+                <entry key="htm" value="text/htm"/>
+            </map>
+        </property>
+    </bean>
+    <!--设置CommonsMultipartResolver,用于springmvc文件上传功能 -->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <!-- 此处20971520=20*1024*1024,规定上传文件最大不超过20M -->
+        <property name="maxUploadSize" value="20971520"></property>
+        <property name="defaultEncoding" value="UTF-8"></property>
+        <property name="resolveLazily" value="true"></property>
+    </bean>
+
+    <!--配置页面渲染的视图解析器-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/views/"></property>
+        <property name="suffix" value=".jsp"></property>
+    </bean>
+</beans>

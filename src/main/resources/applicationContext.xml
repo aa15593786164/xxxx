@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd"
+>
+
+    <!-- 自动扫描注解的bean -->
+    <context:component-scan base-package="com.company"/>
+
+    <import resource="classpath:mybatis/spring-dbsource.xml"/>
+
+    <!-- 事务核心管理器,封装了所有事务操作. 依赖于连接池 -->
+    <bean name="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+    <!-- 配置事务通知 -->
+    <tx:advice id="txAdvice" transaction-manager="transactionManager">
+        <tx:attributes>
+            <!-- 以方法为单位,指定方法应用什么事务属性 isolation:隔离级别 propagation:传播行为 read-only:是否只读 -->
+            <tx:method name="insert*" isolation="READ_COMMITTED"
+                       propagation="REQUIRED" read-only="false" />
+            <tx:method name="delete*" isolation="READ_COMMITTED"
+                       propagation="REQUIRED" read-only="false" />
+            <tx:method name="update*" isolation="READ_COMMITTED"
+                       propagation="REQUIRED" read-only="false" />
+
+            <tx:method name="find*" isolation="READ_COMMITTED"
+                       propagation="REQUIRED" read-only="true" />
+
+        </tx:attributes>
+    </tx:advice>
+
+    <!-- 配置织入 -->
+    <aop:config>
+        <!-- 配置切点表达式:定义在service包和所有子包里的任意类的任意方法的执行 -->
+        <aop:pointcut expression="execution(* com.company.service.impl..*.*(..))" id="txPc" />
+        <!-- 配置切面 : 通知+切点 advice-ref:通知的名称 pointcut-ref:切点的名称 -->
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="txPc" />
+    </aop:config>
+
+</beans>
