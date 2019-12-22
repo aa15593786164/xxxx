@@ -79,4 +79,24 @@ public class UserServiceImplTest {
         ServerRes uRes1 = userService.forgetResetPassword("qian","112244","dc7804de-524b-414a-9aee-f86308723914");
         System.err.println(uRes1);
     }
+
+    @Test
+    public void updateInformation() {
+        ServerRes<User> res1  = userService.login("qian","112233");
+        User user = new User("qian","112233","443224124124@qq.com","123345234" ,"Q","A");
+        ServerRes uRes = userService.updateInformation(user);
+        System.err.println(uRes);
+    }
+
+    @Test
+    public void getInformation() {
+        ServerRes<User> res1  = userService.login("xxxx","123456");
+        ServerRes<User> uRes = userService.getInformation(1009);
+        System.err.println(uRes);
+    }
+
+//    @Test
+//    public void resetPassword() {
+//        ServerRes uRes = userService.resetPassword();
+//    }
 }

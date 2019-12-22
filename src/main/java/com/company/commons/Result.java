@@ -27,6 +27,14 @@ public enum Result {
     UPDATE_PASSWORD_SUCCESS(213,"密码修改成功"),
     UPDATE_PASSWORD_ERROR(214,"密码修改失败"),
     TOKEN_ISNOT_EXIST(215,"Token无效，请重新获取"),
+    PASSWORD_ISPUT_ERROR(216,"旧密码错误，重新输入"),
+    PASSWORD_UPDATE_SUCCESS(217,"更新密码成功"),
+    PASSWORD_UPDATE_ERROR(218,"更新密码失败"),
+    EMAIL_IS_ERROR(219,"EMAIL已被其他用户使用，请重新修改邮箱地址"),
+    UPDATE_USER_INFO_SUCCESS(220,"更新个人信息成功"),
+    UPDATE_USER_INFO_ERROR(221,"更新个人信息失败"),
+    NOT_FOUND_USER_ERROR(222,"找不到当前用户"),
+    USER_IS_NOT_MANAGER_ROLE(223,"该用户没有管理权限，无法登录后台管理系统"),
     ;
 
     private final int Status;

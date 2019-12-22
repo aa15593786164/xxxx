@@ -73,4 +73,41 @@ public class UserAction {
     public ServerRes<String> forgetResetPassword(String username,String passwordNew,String forgetToken){
         return userService.forgetResetPassword(username,passwordNew,forgetToken);
     }
+
+    //1.8 登录状态下重置密码
+    @RequestMapping(value = "reset_password.do",method = RequestMethod.POST)
+    @ResponseBody
+    public ServerRes<String> resetPassword(HttpSession session,String passwordOld,String passwordNew){
+       User user = (User) session.getAttribute(Const.CURRENT_USER);
+       if(user == null){
+           return ServerRes.error(Result.GET_USER_INFO_ERROR);
+       }
+       return userService.resetPassword(passwordOld,passwordNew,user);
+    }
+
+    @RequestMapping(value = "update_infomation.do",method = RequestMethod.POST)
+    @ResponseBody
+    public ServerRes<User> updateUserInformation(User user,HttpSession session){
+        User currentUser = (User) session.getAttribute(Const.CURRENT_USER);
+        if(currentUser == null){
+            return ServerRes.error(Result.GET_USER_INFO_ERROR);
+        }
+        user.setId(currentUser.getId());
+        user.setUsername(currentUser.getUsername());
+        ServerRes<User> resultResponse = userService.updateInformation(user);
+        if(resultResponse.getStatus() == Result.LOGIN_SUCCESS.getStatus()){
+            session.setAttribute(Const.CURRENT_USER,resultResponse.getData());
+        }
+        return resultResponse;
+    }
+
+    @RequestMapping(value = "get_information.do",method = RequestMethod.GET)
+    @ResponseBody
+    public ServerRes<User> getInformation(HttpSession session){
+        User currentUser = (User)session.getAttribute(Const.CURRENT_USER);
+        if(currentUser == null){
+            return ServerRes.error(Result.RESULT_ERROR);
+        }
+        return userService.getInformation(currentUser.getId());
+    }
 }

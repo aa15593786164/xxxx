@@ -47,4 +47,27 @@ public interface UserService {
      * @return
      */
     public ServerRes<String> forgetResetPassword(String username,String passwordNew,String forgetToken);
+
+    /**
+     * 1.8 登录状态下重置密码
+     * @param passwordOld
+     * @param passwordNew
+     * @param user
+     * @return
+     */
+    public ServerRes<String> resetPassword(String passwordOld,String passwordNew,User user);
+
+    /**
+     * 登录后修改用户信息
+     * @param user
+     * @return
+     */
+    public ServerRes<User> updateInformation(User user);
+
+    /**
+     * 登录后获取用户全部信息
+     * @param id
+     * @return
+     */
+    ServerRes<User> getInformation(Integer id);
 }

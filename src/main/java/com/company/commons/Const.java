@@ -1,6 +1,6 @@
 package com.company.commons;
 
-public interface Const {
+public class Const {
     public static final String CURRENT_USER = "currentUser";
     //通过定义内部接口的方式，将静态常量根据功能进行分组
     public interface Role{

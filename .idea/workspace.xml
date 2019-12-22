@@ -7,13 +7,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cc43e0e-e33e-4d1d-a796-9ed00916c25c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/avtion/UserManagerAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/avtion/UserAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/avtion/UserAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/commons/Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/commons/Const.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/commons/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/commons/Result.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/dao/idao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/dao/idao/UserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/service/iservice/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/service/iservice/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/company/service/impl/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/service/impl/UserServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/avtion/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/avtion/UserAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/commons/Const.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/commons/Const.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/commons/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/commons/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/dao/idao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/dao/idao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/service/iservice/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/service/iservice/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mybatisdemo/WEB-INF/classes/com/company/avtion/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mybatisdemo/WEB-INF/classes/com/company/avtion/UserAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mybatisdemo/WEB-INF/classes/com/company/commons/Const.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mybatisdemo/WEB-INF/classes/com/company/commons/Const.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mybatisdemo/WEB-INF/classes/com/company/commons/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mybatisdemo/WEB-INF/classes/com/company/commons/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mybatisdemo/WEB-INF/classes/com/company/dao/idao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mybatisdemo/WEB-INF/classes/com/company/dao/idao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mybatisdemo/WEB-INF/classes/com/company/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mybatisdemo/WEB-INF/classes/com/company/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mybatisdemo/WEB-INF/classes/com/company/service/iservice/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mybatisdemo/WEB-INF/classes/com/company/service/iservice/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mybatisdemo/WEB-INF/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/mybatisdemo/WEB-INF/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/service/impl/UserServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/company/service/impl/UserServiceImplTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,110 +45,33 @@
     <session id="-1142409172">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.100" value="1" />
           <entry key="project.open.time.108" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.84" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="54" />
+          <entry key="JAVA" value="68" />
           <entry key="Properties" value="4" />
-          <entry key="XML" value="20" />
+          <entry key="XML" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4473" />
-          <entry key="SQL" value="4" />
-          <entry key="XML" value="431" />
+          <entry key="JAVA" value="6057" />
+          <entry key="SQL" value="7" />
+          <entry key="XML" value="564" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/avtion/UserAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="69" column="23" lean-forward="true" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1643#1644#0" expanded="true" />
-                <element signature="e#1692#1693#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/dao/idao/UserMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="171" column="2" selection-start-line="171" selection-start-column="2" selection-end-line="171" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/service/iservice/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/service/impl/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="126" column="15" lean-forward="true" selection-start-line="126" selection-start-column="15" selection-end-line="126" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/commons/TokenCache.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/company/service/impl/UserServiceImplTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="79" column="34" lean-forward="true" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -147,20 +88,21 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/company/commons/UTF8StringHttpMessageConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/commons/Const.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/SpringDispatcherServlet-servlet.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/util/PropertyUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/dao/pojo/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/commons/TokenCache.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/commons/Result.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/service/iservice/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/dao/idao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/avtion/UserAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/service/iservice/UserService.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/company/service/impl/UserServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/avtion/UserAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/commons/Result.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/commons/Const.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/avtion/UserManagerAction.java" />
       </list>
     </option>
   </component>
@@ -211,11 +153,25 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="367" />
-    <option name="y" value="47" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="851" />
     <option name="height" value="723" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Angular</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -225,6 +181,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -284,6 +242,26 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xxxx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xxxx" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="idao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xxxx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xxxx" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xxxx" type="b2602c69:ProjectViewProjectNode" />
@@ -354,8 +332,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -368,7 +344,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -414,22 +390,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceImplTest.checkValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xxxx" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.company.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.company.service.impl.UserServiceImplTest" />
-      <option name="METHOD_NAME" value="checkValid" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UserServiceImplTest.forgetResetPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="xxxx" />
       <extension name="coverage">
@@ -441,6 +401,22 @@
       <option name="PACKAGE_NAME" value="com.company.service.impl" />
       <option name="MAIN_CLASS_NAME" value="com.company.service.impl.UserServiceImplTest" />
       <option name="METHOD_NAME" value="forgetResetPassword" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.getInformation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xxxx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.company.service.impl.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="getInformation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -462,7 +438,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceImplTest.registry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceImplTest.updateInformation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="xxxx" />
       <extension name="coverage">
         <pattern>
@@ -472,7 +448,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.company.service.impl" />
       <option name="MAIN_CLASS_NAME" value="com.company.service.impl.UserServiceImplTest" />
-      <option name="METHOD_NAME" value="registry" />
+      <option name="METHOD_NAME" value="updateInformation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -618,19 +594,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Unnamed" />
-      <item itemvalue="JUnit.UserServiceImplTest.checkValid" />
-      <item itemvalue="JUnit.UserServiceImplTest.registry" />
       <item itemvalue="JUnit.UserServiceImplTest.getQuestionByUsername" />
       <item itemvalue="JUnit.UserServiceImplTest.checkAnser" />
       <item itemvalue="JUnit.UserServiceImplTest.forgetResetPassword" />
+      <item itemvalue="JUnit.UserServiceImplTest.updateInformation" />
+      <item itemvalue="JUnit.UserServiceImplTest.getInformation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceImplTest.updateInformation" />
+        <item itemvalue="JUnit.UserServiceImplTest.getInformation" />
         <item itemvalue="JUnit.UserServiceImplTest.forgetResetPassword" />
         <item itemvalue="JUnit.UserServiceImplTest.checkAnser" />
         <item itemvalue="JUnit.UserServiceImplTest.getQuestionByUsername" />
-        <item itemvalue="JUnit.UserServiceImplTest.checkValid" />
-        <item itemvalue="JUnit.UserServiceImplTest.registry" />
       </list>
     </recent_temporary>
   </component>
@@ -647,26 +623,12 @@
       <workItem from="1576885372973" duration="802000" />
       <workItem from="1576886557736" duration="960000" />
       <workItem from="1576887850301" duration="9348000" />
-      <workItem from="1576942734864" duration="18519000" />
+      <workItem from="1576942734864" duration="29797000" />
+      <workItem from="1577022941827" duration="1588000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserServiceImplTest_checkAnser - 2019.12.22 at 03h 12m 16s.xml">
-      <configuration name="UserServiceImplTest.checkAnser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceImplTest_checkAnser - 2019.12.22 at 04h 21m 09s.xml">
-      <configuration name="UserServiceImplTest.checkAnser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceImplTest_checkAnser - 2019.12.22 at 04h 22m 11s.xml">
-      <configuration name="UserServiceImplTest.checkAnser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceImplTest_checkAnser - 2019.12.22 at 04h 33m 11s.xml">
-      <configuration name="UserServiceImplTest.checkAnser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceImplTest_checkAnser - 2019.12.22 at 04h 34m 43s.xml">
-      <configuration name="UserServiceImplTest.checkAnser" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserServiceImplTest_checkAnser - 2019.12.22 at 04h 39m 37s.xml">
       <configuration name="UserServiceImplTest.checkAnser" configurationId="JUnit" />
     </history-entry>
@@ -682,22 +644,36 @@
     <history-entry file="UserServiceImplTest_forgetResetPassword - 2019.12.22 at 04h 59m 45s.xml">
       <configuration name="UserServiceImplTest.forgetResetPassword" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserServiceImplTest_updateInformation - 2019.12.22 at 06h 12m 18s.xml">
+      <configuration name="UserServiceImplTest.updateInformation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_updateInformation - 2019.12.22 at 06h 18m 00s.xml">
+      <configuration name="UserServiceImplTest.updateInformation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_getInformation - 2019.12.22 at 06h 36m 11s.xml">
+      <configuration name="UserServiceImplTest.getInformation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_updateInformation - 2019.12.22 at 06h 40m 40s.xml">
+      <configuration name="UserServiceImplTest.updateInformation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_updateInformation - 2019.12.22 at 06h 41m 13s.xml">
+      <configuration name="UserServiceImplTest.updateInformation" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29629000" />
+    <option name="totallyTimeSpent" value="42495000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.061068702" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21450381" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49923664" weight="0.35443038" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49923664" weight="0.1681736" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47197106" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -707,7 +683,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50076336" side_tool="true" weight="0.48101267" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.56057864" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.5597609" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32851985" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -794,10 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13">
           <caret line="40" column="42" lean-forward="true" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
-          <folding>
-            <element signature="e#941#942#0" expanded="true" />
-            <element signature="e#997#998#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -836,28 +808,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="742">
           <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/commons/Const.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../shop/src/main/java/com/company/commons/ServerResponse.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/commons/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/commons/TokenCache.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -866,20 +821,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/service/iservice/UserService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/avtion/UserManagerAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/commons/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/commons/Const.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/service/impl/UserServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="78" column="48" selection-start-line="78" selection-start-column="48" selection-end-line="78" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="126" column="15" lean-forward="true" selection-start-line="126" selection-start-column="15" selection-end-line="126" selection-end-column="15" />
+        <state relative-caret-position="1">
+          <caret line="122" column="38" selection-start-line="122" selection-start-column="38" selection-end-line="122" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -888,8 +861,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/dao/idao/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+        <state relative-caret-position="391">
+          <caret line="52" column="16" lean-forward="true" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -898,27 +871,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="171" column="2" selection-start-line="171" selection-start-column="2" selection-end-line="171" selection-end-column="2" />
+        <state relative-caret-position="231">
+          <caret line="180" column="2" selection-start-line="180" selection-start-column="2" selection-end-line="180" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/service/iservice/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="54" column="18" lean-forward="true" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/avtion/UserAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="69" column="23" lean-forward="true" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+        <state relative-caret-position="216">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1643#1644#0" expanded="true" />
             <element signature="e#1692#1693#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/service/impl/UserServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="79" column="34" lean-forward="true" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
         </state>
       </provider>
     </entry>

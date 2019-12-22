@@ -130,4 +130,50 @@ public class UserServiceImpl implements UserService {
         return ServerRes.error(Result.UPDATE_PASSWORD_ERROR);
     }
 
+    @Override
+    public ServerRes<String> resetPassword(String passwordOld, String passwordNew, User user) {
+        //验证密码
+        int resultCount = userMapper.checkPassword(MD5Util.MD5EncodeUtf8(passwordOld),user.getId());
+        if(resultCount == 0){
+            return ServerRes.error(Result.PASSWORD_ISPUT_ERROR);
+        }
+        //更改密码
+        user.setPassword(MD5Util.MD5EncodeUtf8(passwordNew));
+        int updateCount = userMapper.updateByPrimaryKeySelective(user);
+        if(updateCount >0){
+            return ServerRes.success(Result.PASSWORD_UPDATE_SUCCESS);
+        }
+        return ServerRes.error(Result.PASSWORD_UPDATE_ERROR);
+    }
+
+    @Override
+    public ServerRes<User> updateInformation(User user) {
+        int resultCount = userMapper.checkEmailByUserId(user.getEmail(), user.getId());
+        if (resultCount > 0) {
+            return ServerRes.error(Result.EMAIL_IS_ERROR);
+        }
+        User updateUser = new User();
+        updateUser.setId(user.getId());
+        updateUser.setUsername(user.getUsername());
+        updateUser.setEmail(user.getEmail());
+        updateUser.setPhone(user.getPhone());
+        updateUser.setQuestion(user.getQuestion());
+        updateUser.setAnser(user.getAnser());
+        int updateCount = userMapper.updateByPrimaryKeySelective(updateUser);
+        if (updateCount > 0) {
+            return ServerRes.success(Result.UPDATE_USER_INFO_SUCCESS,updateUser);
+        }
+        return ServerRes.error(Result.UPDATE_USER_INFO_ERROR);
+    }
+
+    @Override
+    public ServerRes<User> getInformation(Integer id) {
+        User user = userMapper.selectByPrimaryKey(id);
+        if(user == null){
+            return ServerRes.error(Result.NOT_FOUND_USER_ERROR);
+        }
+        //重置密码
+        user.setPassword(StringUtils.EMPTY);
+        return ServerRes.success(Result.RESULT_SUCCESS,user);
+    }
 }

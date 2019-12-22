@@ -46,4 +46,20 @@ public interface UserMapper {
      * @return
      */
    int updatePasswordByUsername(@Param("username") String username,@Param("passwordNew") String passwordNew);
+
+    /**
+     *  登录状态下重置密码
+     * @param password
+     * @param id
+     * @return
+     */
+    int checkPassword(@Param("password") String password,@Param("userId") Integer id);
+
+    /**
+     * 修改用户信息，检验email是否已经被其他用户注册
+     * @param email
+     * @param id
+     * @return
+     */
+    int checkEmailByUserId(@Param("email") String email,@Param("userId") Integer id);
 }
