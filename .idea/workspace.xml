@@ -7,31 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cc43e0e-e33e-4d1d-a796-9ed00916c25c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/avtion/UserManagerAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/avtion/UserAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/avtion/UserAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/commons/Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/commons/Const.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/commons/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/commons/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/dao/idao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/dao/idao/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/service/iservice/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/service/iservice/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/service/impl/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/service/impl/UserServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/avtion/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/avtion/UserAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/commons/Const.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/commons/Const.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/commons/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/commons/Result.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/dao/idao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/dao/idao/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/service/iservice/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/service/iservice/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatisdemo/WEB-INF/classes/com/company/avtion/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mybatisdemo/WEB-INF/classes/com/company/avtion/UserAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatisdemo/WEB-INF/classes/com/company/commons/Const.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mybatisdemo/WEB-INF/classes/com/company/commons/Const.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatisdemo/WEB-INF/classes/com/company/commons/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mybatisdemo/WEB-INF/classes/com/company/commons/Result.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatisdemo/WEB-INF/classes/com/company/dao/idao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mybatisdemo/WEB-INF/classes/com/company/dao/idao/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatisdemo/WEB-INF/classes/com/company/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mybatisdemo/WEB-INF/classes/com/company/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatisdemo/WEB-INF/classes/com/company/service/iservice/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mybatisdemo/WEB-INF/classes/com/company/service/iservice/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mybatisdemo/WEB-INF/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/mybatisdemo/WEB-INF/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/service/impl/UserServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/company/service/impl/UserServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/commons/TokenCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/commons/TokenCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxxx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shop.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -56,14 +33,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="68" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="4" />
-          <entry key="XML" value="21" />
+          <entry key="XML" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="6057" />
+          <entry key="PLAIN_TEXT" value="5" />
           <entry key="SQL" value="7" />
           <entry key="XML" value="564" />
         </counts>
@@ -195,139 +176,6 @@
               <item name="xxxx" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="xxxx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xxxx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xxxx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xxxx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xxxx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xxxx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xxxx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xxxx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="avtion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xxxx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xxxx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="commons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xxxx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xxxx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xxxx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xxxx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="idao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xxxx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xxxx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xxxx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xxxx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xxxx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xxxx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xxxx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xxxx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="iservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xxxx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xxxx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xxxx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xxxx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xxxx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xxxx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xxxx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xxxx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xxxx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xxxx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -350,15 +198,18 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.company.service.impl" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\shop\src\main" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\xxxx" />
       <recent name="E:\IdeaProjects\xxxx\src\main\java\com\company\commons" />
       <recent name="E:\IdeaProjects\xxxx\src\main\java\com\company\util" />
       <recent name="E:\IdeaProjects\xxxx\src\main\webapp\WEB-INF" />
       <recent name="E:\IdeaProjects\xxxx\src\main\java\com\company\service\impl" />
-      <recent name="E:\IdeaProjects\xxxx\src\main\java\com\company\service\iservice" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -624,7 +475,7 @@
       <workItem from="1576886557736" duration="960000" />
       <workItem from="1576887850301" duration="9348000" />
       <workItem from="1576942734864" duration="29797000" />
-      <workItem from="1577022941827" duration="1588000" />
+      <workItem from="1577022941827" duration="2544000" />
     </task>
     <servers />
   </component>
@@ -661,12 +512,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42495000" />
+    <option name="totallyTimeSpent" value="43451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21450381" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26412213" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -728,6 +579,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="0.0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.0.1" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
@@ -770,6 +625,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13">
           <caret line="40" column="42" lean-forward="true" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+          <folding>
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -790,13 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4266">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/util/MD5Util.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1026">
@@ -808,6 +660,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="742">
           <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -825,6 +680,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -897,6 +755,31 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxxx.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
